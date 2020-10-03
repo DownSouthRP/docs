@@ -24,16 +24,27 @@
         </ul>
         
         <ul class="navbar-nav ml-md-auto">
-            <!-- <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown">Dropdown link</a>
-                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a> <a class="dropdown-item" href="#">Something else here</a>
-                    <div class="dropdown-divider">
-                    </div> <a class="dropdown-item" href="#">Separated link</a>
-                </div>
-            </li> -->
+            <li class="nav-item">
+                    <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModal">Login</a>
+            </li>
         </ul>
     </div>
 
 </nav>
 <br>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Woah!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        This isn't a feature yet!
+      </div>
+    </div>
+  </div>
+</div>
