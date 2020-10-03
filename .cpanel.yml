@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLYPATH=/home/downsout/docs.dsrp.online/
+    - /bin/cp -R * $DEPLOYPATH
