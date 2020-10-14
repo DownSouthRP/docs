@@ -254,7 +254,7 @@
 
                                                     <br>
 
-                                                    <p>In order to open this menu up you will need to press <strong>F1</strong>.</p>
+                                                    <p>In order to open this menu up you will need to press <strong>F7</strong>.</p>
                                                     
                                                 </div>
                                             </div>
